@@ -9,7 +9,7 @@ function Type() {
           "Researcher",
           "Student",
           "Software Developer",
-          "Clash of Clans Enthusiast (Town Hall 13)",
+          "Clash of Clans enthusiast (Town Hall 13)",
         ],
         autoStart: true,
         loop: true,

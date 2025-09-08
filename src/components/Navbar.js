@@ -37,7 +37,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" style={{ width: "100%", height: "100%", maxWidth: "400px", maxHeight: "400px" }} />
+          <img src={logo} className="img-fluid logo" alt="brand" style={{ width: "2400px", height: "2400px" }} />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -71,7 +71,7 @@ function NavBar() {
                 <AiOutlineFundProjectionScreen
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Projects/Experience
               </Nav.Link>
 
               <Nav.Link

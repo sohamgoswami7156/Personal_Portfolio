@@ -2,10 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+// Only import icons for Java, MERN, Python, OCaml, Git if used
 
 function Home2() {
   return (
@@ -20,7 +19,7 @@ function Home2() {
               I fell in love with programming because it lets me turn ideas into something real that people can actually use. Along the way, I’ve built everything from AI-powered voice assistants in healthcare to award-winning platforms that help Alzheimer’s patients connect with family.
               <br />
               <br />
-              I’m fluent in the classics like <b className="purple">Python, JavaScript, and Java</b>, and I love working with modern tools like <b className="purple">React, Next.js, and MongoDB</b>. My main interests are building impactful web technologies, exploring AI/ML applications, and designing products that make life easier (and maybe a little cooler 🤷‍♂️).
+              I’m fluent in <b className="purple">Python, Java, MERN stack, OCaml, and Git</b>. My main interests are building impactful web technologies, exploring AI/ML applications, and designing products that make life easier (and maybe a little cooler 🤷‍♂️).
               <br />
               <br />
               Whenever I can, I dive into projects that blend creativity and tech—whether that’s optimizing backend systems, crafting smooth user experiences, or experimenting with cloud platforms.
@@ -32,6 +31,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+        {/* Removed 'days I code' and all other skill/tool icons except the ones listed above */}
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
