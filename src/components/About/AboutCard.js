@@ -14,20 +14,7 @@ function AboutCard() {
             I'm passionate about learning new technologies, collaborating with others, and solving real-world problems. When I'm not coding, you'll find me playing basketball, running, catching Pokémon, or battling in Clash Royale.<br /><br />
             If you want to chat about tech, research, or just life, feel free to reach out!
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Basketball
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Running
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Pokemon
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Clash Royale 
-            </li>
-          </ul>
+          {/* Interests bullet points removed as requested */}
         </blockquote>
       </Card.Body>
     </Card>
