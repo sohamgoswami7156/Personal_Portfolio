@@ -38,7 +38,7 @@ function Home2() {
               I'd love to<span className="purple"> talk or connect </span>with you!
             </p>
             <p style={{ marginBottom: "10px" }}>
-              Email me at: <a href="mailto:sbg226@gmail.com" className="purple">sbg226@gmail.com</a>
+              Email me at: <a href="mailto:sbg226@cornell.edu" className="purple">sbg226@gmail.com</a>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons" style={{ marginRight: "16px" }}>
