@@ -34,8 +34,7 @@ function Home2() {
         {/* Removed 'days I code' and all other skill/tool icons except the ones listed above */}
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
+            <p style={{ fontSize: "2em", fontWeight: "bold" }}>
               I'd love to<span className="purple"> talk or connect </span>with you!
             </p>
             <p style={{ marginBottom: "10px" }}>
