@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Timeline from "../Timeline/Timeline";
 import resumeTailor from "../../Assets/Projects/resume-tailor.jpg";
 import scrapbook from "../../Assets/Projects/scrapbook.jpg";
+import ecolens from "../../Assets/Projects/ecolens.svg";
 
 function Projects() {
   return (
@@ -40,11 +41,11 @@ function Projects() {
 
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={resumeTailor}
+              imgPath={ecolens}
               isBlog={false}
-              title="New Project Title"
-              description="Short description for the new project. Replace this with the full project summary, tech stack, and highlights."
-              ghLink="https://github.com/yourusername/your-new-project"
+              title="🌱 EcoLens - Environmental Impact Scanner"
+              description={`A simple web app that analyzes the environmental impact of everyday items from photos using Google Cloud Vision API.\n\nFeatures:\n📸 Photo Upload: Drag & drop or click to upload images\n🔍 Object Recognition: Uses Google Cloud Vision API to identify items\n📊 Impact Analysis: Shows environmental impact score, carbon footprint, and recyclability\n💡 Sustainability Tips: Provides actionable advice for eco-friendly choices\n📱 Responsive Design: Works on desktop and mobile devices`}
+              ghLink="https://github.com/sohamgoswami7156/ecolens"
             />
           </Col>
         </Row>
