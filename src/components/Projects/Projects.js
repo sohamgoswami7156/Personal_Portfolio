@@ -37,6 +37,16 @@ function Projects() {
               ghLink="https://devpost.com/software/scrapbook-5h0f4v"
             />
           </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={resumeTailor}
+              isBlog={false}
+              title="New Project Title"
+              description="Short description for the new project. Replace this with the full project summary, tech stack, and highlights."
+              ghLink="https://github.com/yourusername/your-new-project"
+            />
+          </Col>
         </Row>
       </Container>
       <Timeline />
