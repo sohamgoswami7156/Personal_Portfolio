@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import Timeline from "../Timeline/Timeline";
 import resumeTailor from "../../Assets/Projects/resume-tailor.jpg";
 import scrapbook from "../../Assets/Projects/scrapbook.jpg";
-import ecolens from "../../Assets/Projects/ecolens.svg";
+import ecolens from "../../Assets/Projects/eco-len-image.jpg";
 
 function Projects() {
   return (
