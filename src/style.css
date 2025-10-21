@@ -888,11 +888,27 @@ button:focus {
 }
 
 .coursework-section h5,
-.organizations-section h5 {
+.organizations-section h5,
+.highlights-section h5 {
   color: #c770f0;
   font-size: 1rem;
   margin-bottom: 10px;
   font-weight: 600;
+}
+
+.highlights-section {
+  margin-top: 15px;
+}
+
+.highlights-list {
+  color: #e0e0e0;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.highlights-list li {
+  margin-bottom: 5px;
+  line-height: 1.4;
 }
 
 /* Responsive Design */

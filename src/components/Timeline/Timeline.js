@@ -16,6 +16,96 @@ function Timeline() {
         <div className="timeline">
           <div className="timeline-item">
             <div className="timeline-marker">
+              <FaCode className="timeline-icon" />
+            </div>
+            <div className="timeline-content">
+              <div className="timeline-header">
+                <h3>ChatGPT Research Lab Member</h3>
+                <h4>ChatGPT Lab, OpenAI</h4>
+                <p className="timeline-location">Remote</p>
+                <p className="timeline-date">
+                  <FaCalendarAlt className="me-2" />
+                  October 2025 – Present
+                </p>
+              </div>
+              <div className="timeline-description">
+                <p>
+                  I collaborate with OpenAI engineers and student researchers to explore how AI can best support students in study, career, and everyday life. As part of the ChatGPT Research Lab, I contribute user feedback and product insights to shape emerging features like Study Mode and learning assistance tools.
+                </p>
+                <div className="highlights-section">
+                  <h5>Highlights:</h5>
+                  <ul className="highlights-list">
+                    <li>Collaborate on research focused on AI in education and productivity</li>
+                    <li>Test and evaluate pre-release OpenAI features with peer teams</li>
+                    <li>Provide structured feedback that informs UX and feature design improvements</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-marker">
+              <FaCode className="timeline-icon" />
+            </div>
+            <div className="timeline-content">
+              <div className="timeline-header">
+                <h3>Software Development Researcher</h3>
+                <h4>J2 Lab: Engineering Living Materials, Cornell University</h4>
+                <p className="timeline-location">Ithaca, NY</p>
+                <p className="timeline-date">
+                  <FaCalendarAlt className="me-2" />
+                  September 2025 – Present
+                </p>
+              </div>
+              <div className="timeline-description">
+                <p>
+                  At the J2 Lab, I develop NLP-driven data pipelines to analyze scientific literature and extract biomaterial properties for sustainable materials research. My work helps accelerate discovery by transforming unstructured publications into structured, searchable datasets.
+                </p>
+                <div className="highlights-section">
+                  <h5>Highlights:</h5>
+                  <ul className="highlights-list">
+                    <li>Built natural language processing workflows for 300+ publications</li>
+                    <li>Automated data extraction and ETL pipelines to reduce research prep time by 50%</li>
+                    <li>Deployed cloud-based tools on AWS to enhance data accessibility for interdisciplinary teams</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-marker">
+              <FaCode className="timeline-icon" />
+            </div>
+            <div className="timeline-content">
+              <div className="timeline-header">
+                <h3>Software Development Assistant</h3>
+                <h4>Entomological Data Science Lab, Cornell University</h4>
+                <p className="timeline-location">Ithaca, NY</p>
+                <p className="timeline-date">
+                  <FaCalendarAlt className="me-2" />
+                  September 2025 – Present
+                </p>
+              </div>
+              <div className="timeline-description">
+                <p>
+                  I apply computational tools to extract and structure ecological data from large-scale entomological studies. My work focuses on analyzing pollinator–plant interactions to support biodiversity and ecosystem research.
+                </p>
+                <div className="highlights-section">
+                  <h5>Highlights:</h5>
+                  <ul className="highlights-list">
+                    <li>Applied NLP and information retrieval techniques to over 500 ecology papers</li>
+                    <li>Built automated data-cleaning workflows with Python and Pandas</li>
+                    <li>Helped identify large-scale trends in pollinator health and plant-pollinator networks</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-marker">
               <FaUniversity className="timeline-icon" />
             </div>
             <div className="timeline-content">
