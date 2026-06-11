@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { FaGraduationCap, FaCode, FaCalendarAlt, FaUniversity } from "react-icons/fa";
 
 function Timeline() {
@@ -14,6 +14,66 @@ function Timeline() {
         </p>
         
         <div className="timeline">
+          <div className="timeline-item">
+            <div className="timeline-marker">
+              <FaUniversity className="timeline-icon" />
+            </div>
+            <div className="timeline-content">
+              <div className="timeline-header">
+                <h3>GenAI Fellow, Project Lead - AI Usage Study</h3>
+                <h4>Creative Technology Lab, Cornell University</h4>
+                <p className="timeline-location">Ithaca, NY</p>
+                <p className="timeline-date">
+                  <FaCalendarAlt className="me-2" />
+                  Current, including Summer 2026
+                </p>
+              </div>
+              <div className="timeline-description">
+                <p>
+                  I lead a Google-funded research initiative studying how Cornell students use AI across learning, productivity, and campus life. The role blends product strategy and applied research: I help shape the study direction, translate student behavior into actionable insights, and frame findings for students, professors, and administrators.
+                </p>
+                <div className="highlights-section">
+                  <h5>Highlights:</h5>
+                  <ul className="highlights-list">
+                    <li>Own project planning, research priorities, and stakeholder-facing deliverables for the AI usage study</li>
+                    <li>Convert qualitative and quantitative student AI usage patterns into recommendations for campus audiences</li>
+                    <li>Coordinate across research, design, and academic stakeholders to turn study findings into practical product and policy insights</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-marker">
+              <FaCode className="timeline-icon" />
+            </div>
+            <div className="timeline-content">
+              <div className="timeline-header">
+                <h3>Cofounder and Head of Product</h3>
+                <h4>Code Arena</h4>
+                <p className="timeline-location">Remote</p>
+                <p className="timeline-date">
+                  <FaCalendarAlt className="me-2" />
+                  Current
+                </p>
+              </div>
+              <div className="timeline-description">
+                <p>
+                  I lead product direction for Code Arena, a PVP coding platform built to help students prepare for technical interviews through competitive, realistic practice. The work focuses on designing product loops that make interview prep more engaging while adapting to the newer generation of coding interviews shaped by AI tools, faster prototyping, and applied problem-solving.
+                </p>
+                <div className="highlights-section">
+                  <h5>Highlights:</h5>
+                  <ul className="highlights-list">
+                    <li>Define product strategy, user flows, and core gameplay mechanics for competitive interview preparation</li>
+                    <li>Translate student pain points into features for practice, feedback, ranking, and interview readiness</li>
+                    <li>Coordinate product priorities across design, engineering, and student research to build a sharper prep experience</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="timeline-item">
             <div className="timeline-marker">
               <FaCode className="timeline-icon" />
@@ -38,36 +98,6 @@ function Timeline() {
                     <li>Collaborate on research focused on AI in education and productivity</li>
                     <li>Test and evaluate pre-release OpenAI features with peer teams</li>
                     <li>Provide structured feedback that informs UX and feature design improvements</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="timeline-item">
-            <div className="timeline-marker">
-              <FaCode className="timeline-icon" />
-            </div>
-            <div className="timeline-content">
-              <div className="timeline-header">
-                <h3>Software Development Researcher</h3>
-                <h4>J2 Lab: Engineering Living Materials, Cornell University</h4>
-                <p className="timeline-location">Ithaca, NY</p>
-                <p className="timeline-date">
-                  <FaCalendarAlt className="me-2" />
-                  September 2025 – Present
-                </p>
-              </div>
-              <div className="timeline-description">
-                <p>
-                  At the J2 Lab, I develop NLP-driven data pipelines to analyze scientific literature and extract biomaterial properties for sustainable materials research. My work helps accelerate discovery by transforming unstructured publications into structured, searchable datasets.
-                </p>
-                <div className="highlights-section">
-                  <h5>Highlights:</h5>
-                  <ul className="highlights-list">
-                    <li>Built natural language processing workflows for 300+ publications</li>
-                    <li>Automated data extraction and ETL pipelines to reduce research prep time by 50%</li>
-                    <li>Deployed cloud-based tools on AWS to enhance data accessibility for interdisciplinary teams</li>
                   </ul>
                 </div>
               </div>
@@ -106,6 +136,36 @@ function Timeline() {
 
           <div className="timeline-item">
             <div className="timeline-marker">
+              <FaCode className="timeline-icon" />
+            </div>
+            <div className="timeline-content">
+              <div className="timeline-header">
+                <h3>Software Development Researcher</h3>
+                <h4>J2 Lab: Engineering Living Materials, Cornell University</h4>
+                <p className="timeline-location">Ithaca, NY</p>
+                <p className="timeline-date">
+                  <FaCalendarAlt className="me-2" />
+                  September 2025 – February 2026
+                </p>
+              </div>
+              <div className="timeline-description">
+                <p>
+                  At the J2 Lab, I developed NLP-driven data pipelines to analyze scientific literature and extract biomaterial properties for sustainable materials research. My work helped accelerate discovery by transforming unstructured publications into structured, searchable datasets.
+                </p>
+                <div className="highlights-section">
+                  <h5>Highlights:</h5>
+                  <ul className="highlights-list">
+                    <li>Built natural language processing workflows for 300+ publications</li>
+                    <li>Automated data extraction and ETL pipelines to reduce research prep time by 50%</li>
+                    <li>Deployed cloud-based tools on AWS to enhance data accessibility for interdisciplinary teams</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="timeline-item">
+            <div className="timeline-marker">
               <FaUniversity className="timeline-icon" />
             </div>
             <div className="timeline-content">
@@ -126,6 +186,11 @@ function Timeline() {
                     <span className="tech-tag">Computational Genetics and Genomics</span>
                     <span className="tech-tag">Data Structures & Functional Programming</span>
                     <span className="tech-tag">Mathematical Foundations of Computing</span>
+                    <span className="tech-tag">Introduction to Computer Vision</span>
+                    <span className="tech-tag">Computational Linguistics</span>
+                    <span className="tech-tag">Computer System Organization and Programming</span>
+                    <span className="tech-tag">AI Reasoning and Decision Making</span>
+                    <span className="tech-tag">Multiple Regression Analysis</span>
                     <span className="tech-tag">Linear Algebra</span>
                     <span className="tech-tag">Statistics</span>
                   </div>

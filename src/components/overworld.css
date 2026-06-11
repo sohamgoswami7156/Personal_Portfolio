@@ -1,0 +1,102 @@
+
+/* From Uiverse.io by uiverse-astronaut */ 
+.ow-search {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  max-width: 100%;
+  font-family: var(--font-body, "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif);
+  color: var(--color-ink, #161310);
+}
+
+.ow-search__label {
+  font-family: var(--font-hud, "VT323", ui-monospace, monospace);
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-ink, #161310);
+  line-height: 1;
+}
+
+.ow-search__field {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 10px 0 12px;
+  height: 52px;
+  background-color: var(--color-bone, #fffaef);
+  border: 2px solid var(--color-ink, #161310);
+  border-radius: 0;
+  box-shadow: 4px 4px 0 0 var(--color-ink, #161310);
+  transition:
+    box-shadow 120ms ease,
+    border-color 120ms ease;
+}
+
+.ow-search__field:focus-within {
+  border-color: var(--color-sky-cobalt, #2e5dd6);
+  box-shadow: 4px 4px 0 0 var(--color-sky-cobalt, #2e5dd6);
+}
+
+.ow-search__icon {
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+  fill: var(--color-ink, #161310);
+}
+
+.ow-search__input {
+  flex: 1;
+  min-width: 0;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: var(--font-hud, "VT323", ui-monospace, monospace);
+  font-size: 22px;
+  line-height: 1;
+  color: var(--color-ink, #161310);
+  padding: 0;
+  margin: 0;
+}
+
+.ow-search__input::placeholder {
+  color: var(--color-ink-soft, #3a332a);
+  opacity: 0.7;
+}
+
+.ow-search__kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  padding: 0 8px;
+  font-family: var(--font-hud, "VT323", ui-monospace, monospace);
+  font-size: 18px;
+  background-color: var(--color-parchment, #f2ead6);
+  color: var(--color-ink, #161310);
+  border: 2px solid var(--color-ink, #161310);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.ow-search__help {
+  font-family: var(--font-hud, "VT323", ui-monospace, monospace);
+  font-size: 16px;
+  color: var(--color-ink-soft, #3a332a);
+  line-height: 1.2;
+  margin: 0;
+  letter-spacing: 0.02em;
+}
+
+.ow-search__help span {
+  font-family: var(--font-hud, "VT323", ui-monospace, monospace);
+  background-color: var(--color-parchment, #f2ead6);
+  border: 2px solid var(--color-ink, #161310);
+  padding: 0 6px;
+  display: inline-block;
+  line-height: 1.1;
+  color: var(--color-ink, #161310);
+}
